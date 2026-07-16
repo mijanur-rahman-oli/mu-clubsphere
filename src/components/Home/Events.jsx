@@ -162,7 +162,7 @@ const Events = () => {
   if (eventsLoading || authLoading) return <LoadingSpinner />;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-8 pt-30">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100  py-20 md:py-24">
       <Container>
         {/* Header Section */}
         <div className="text-center mb-8">

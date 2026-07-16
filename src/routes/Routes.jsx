@@ -26,6 +26,7 @@ import Transactions from '../pages/Dashboard/Customer/Transactions';
 import AddClub from '../pages/Dashboard/Seller/AddClub';;
 import PaymentSuccess from '../pages/Payment/PayementSuccess';
 import ClubDetails from '../pages/ClubDetails/ClubDetails';
+import About from '../pages/About/About'
 
 export const router = createBrowserRouter([
   {
@@ -38,6 +39,7 @@ export const router = createBrowserRouter([
       { path: '/event', element: <Event /> },
       { path: '/club/:id', element: <ClubDetails /> },
       { path: '/payment-success', element: <PaymentSuccess /> },
+      { path: '/about', element: <About /> },
     ],
   },
   { path: '/login', element: <Login /> },
